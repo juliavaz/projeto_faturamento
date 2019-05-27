@@ -1,0 +1,57 @@
+body{
+	background-color: rgb(254,219,65);
+	font-weight: lighter;
+	font-family: Arial;
+	text-align: center;
+	margin:0;
+}
+
+.logo{
+	margin: auto;
+	margin-top: 80px;
+}
+
+.botoes{	
+	margin: auto;
+	margin-top: 80px;
+	width: 500px;
+	height: 200px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 56px;
+}
+
+#botao_menu,
+#botao_fatura,
+#botao_clientes,
+#botao_lista_clientes,
+#botao_grupos,
+#botao_sair {
+	background-color: rgb(34,64,153);
+	border-style: none;
+	border-radius: 5px;
+	color: rgb(254,219,65);
+	font-weight: bold;
+	cursor: pointer;
+	width: 150px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+#botao_menu :hover,
+#botao_fatura :hover,
+#botao_clientes :hover,
+#botao_lista_clientes :hover,
+#botao_grupos :hover,
+#botao_sair :hover{
+	font-weight: bold;
+	-webkit-transform: scale(3.3);
+  	-moz-transform: scale(3.3);
+  	-o-transform: scale(3.3);
+  	-ms-transform: scale(3.3);
+ 	transform: scale(3.3);
+	-moz-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+	cursor: pointer;
+}

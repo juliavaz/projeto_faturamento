@@ -1,0 +1,51 @@
+form{
+	margin-top: 20px;
+}
+table{
+	font-size: 20px;
+	text-align: center;
+}
+
+button{
+	border-radius: 5px;
+	border-style: none;
+	height: 30px;
+	margin-right: 15px;
+	margin-left: 15px;
+	
+}
+button:hover{
+	cursor: pointer;
+}
+#excluir{
+	background-color: rgb(220,53,69);
+	color: white;
+	font-weight: bold;
+}
+#alterar{
+	background-color: rgb(254,219,65);
+	font-weight: bold;
+}
+lista{
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+}
+select{
+	height: 25px;
+	width: 70px;
+}
+
+.listaClientes{
+	width: 60%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.listaClientes table {
+	width: 100%;
+}
+
+.listaClientes table a{
+	color: rgb(34,64,153);
+}

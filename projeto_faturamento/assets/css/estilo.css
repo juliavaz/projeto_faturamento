@@ -1,0 +1,114 @@
+*{
+	font-family: arial;
+}
+body{
+	background-color: rgb(254,219,65);
+}
+.centro{
+	margin:auto;
+	height: 500px;
+	height: 500px;
+}
+.centrointerior{
+	margin: auto;
+	max-width: 320px;
+	height: 500px;
+}
+.logo{
+	margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.divform{
+	padding: 20px;
+    font-size: 14px;
+}
+input{
+	outline: none;
+	margin-top: 10px;
+	border-top-style: solid;
+	border: none;
+	border-bottom: 2px solid rgb(34,64,153);
+	background: transparent;
+	font-size: 15px;
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+	/* width:100%; */
+	
+}
+.input-sm {
+	width: 30%;
+}
+
+.centro{
+	width: 800px;
+	height: 500px;
+	margin: auto;
+
+}
+#botao{
+	width: 125px;
+	height: 30px;
+	text-align: center;
+}
+input:hover,
+input:hover,
+#botao:hover{
+	font-weight: bold;
+	-webkit-transform: scale(1.1);
+  	-moz-transform: scale(1.1);
+  	-o-transform: scale(1.1);
+  	-ms-transform: scale(1.1);
+ 	 transform: scale(1.1);
+	-moz-transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+	cursor: pointer;
+}
+#botao{
+	background-color: rgb(34,64,153);
+	border-style: none;
+	border-radius: 5px;
+	color: rgb(254,219,65);
+	font-weight: bold;
+	cursor: pointer;
+	height: 30px;
+
+}
+.links{
+	margin-top: 30px;
+	font-size: 10px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: rgb(34,64,153);
+}
+
+
+.titulo{
+	color: rgb(34,64,153);
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+form{
+	color: rgb(34,64,153);
+	
+}
+
+#form_cliente{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#form_cad_categorias{
+	width: 60%;
+	margin: 0 auto;
+}
+#form_cliente{
+	width: 80%;
+	margin: 0 auto;
+}
